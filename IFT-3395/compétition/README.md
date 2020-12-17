@@ -11,3 +11,4 @@ In order to work, the file `competition.py` needs to be placed in the same direc
 ```
 python competition.py
 ```
+The predictions will be saved in the file `sample_submission.csv`.
