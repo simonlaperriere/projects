@@ -1,10 +1,11 @@
-Auteurs: Simon-Olivier Laperrière et Sophie Perreault
+#Competition 1
+This project was conducted as part of the Fundamentals of machine learning (IFT-3395) class. We took part in a Kaggle competition based on text classification, with the ultimate goal of designing a machine learning algorithm that can automatically sort abstracts from scientific papers of the arXiv dataset. The code given in the file `competition.py` gives an implementation of a Naïve Bayes classifier using Bag of Words features, which allowed us to score an accuracy rate of ~76% on the test data.
 
-Le programme competition.py nécessite que les fichiers de données test.csv et train.csv se trouvent dans le même répertoire parent
+Authors: Simon-Olivier Laperrière and Sophie Perreault
+N.B.: The data contained in the `test.csv` and `train.csv` files were sampled from the [arXiv database](https://arxiv.org/).
 
-Pour exécuter le programme, une fois dans son répertoire parent, appeler la commande:
-python code.py
-
-Les prédictions seront enregistrées dans le fichier sample_submission.csv
-
-N.B.: Les données contenues dans les fichiers test.csv et train.csv proviennent de la banque de données arXiv et nous ont été fournies dans le cadre de la compétition Kaggle du cours IFT-3395
+##Usage
+In order to work, the file `competition.py` needs to be placed in the same directory as `test.csv` and `train.csv`. To run the program, once in its parent directory, call the command:
+```
+python competition.py
+```
