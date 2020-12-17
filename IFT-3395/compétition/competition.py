@@ -83,7 +83,7 @@ def bayes_sample_pred():
     df = pd.DataFrame(data={"Id": range(len(labels_pred)), "Category": labels_pred})
     df.to_csv("./sample_submission.csv", sep=',',index=False)
 
-# bayes_sample_pred()
+bayes_sample_pred()
 
 def bayes_test():
     classifieur = BayesClassifier()
