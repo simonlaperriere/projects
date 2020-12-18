@@ -7,7 +7,7 @@ N.B.: We do not own the rights to any of the images found in this game. They wer
 
 ## Usage
 
-In order to work, the [*JavaFX* library](https://gluonhq.com/products/javafx/) must be installed prior to running the program. After downloading the `TP2.jar` file, the program can be executed by calling the following command and by specifying the installation directory of the *JavaFX* library.
+In order to work, the [*JavaFX* library](https://gluonhq.com/products/javafx/) must be installed prior to running the program. After downloading the file `TP2.jar`, the program can be executed by calling the following command and by specifying the installation directory of the *JavaFX* library.
 ```
 java --module-path <install directory>/lib --add-modules=javafx.controls,javafx.fxml,javafx.base,javafx.graphics -jar TP2.jar
 ```
